@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Login | Prom.ua</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section class="section--login">
+                <img class="logo" src="./assets/icons/prom.png" alt="prom logo">
+                <form id="loginForm" class="form--login" action="/dashboard.html" method="post" target="_blank">
+                    <input name="name" type="text" placeholder="Ім'я">
+                    <input name="password" type="password" placeholder="Пароль">
+                    <span class="incorrect--warning hide" id="incorrectWarning">Невірний пароль</span>
+                    <button type="submit">Увійти</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+    <script src="./assets/js/login.js"></script>
+</body>
+
+</html>
